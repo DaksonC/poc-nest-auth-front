@@ -1,5 +1,5 @@
 import { ChangeEvent, FormEvent, useState } from "react";
-import { Button, Container, Form, Input } from "./styles";
+import { Button, Container, Form, Input, Link } from "./styles";
 import { IUserData, LoginUser } from "../../api/LoginUser";
 
 export function LoginPage() {
@@ -45,6 +45,7 @@ export function LoginPage() {
           placeholder="Senha"
         />
         <Button type="submit">Entrar</Button>
+        <Link href="/">Cadastra-se</Link>
       </Form>
     </Container>
   )

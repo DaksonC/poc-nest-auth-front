@@ -68,3 +68,23 @@ export const Button = styled.button`
     height: 2rem;
   }
 `;
+
+export const Link = styled.a`
+  font-size: 0.8rem;
+  text-decoration: none;
+  font-size: 1rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  color: #f9f9;
+  background-color: transparent;
+  
+  &:hover {
+    color: #000;
+  }
+
+  @media (max-width: 768px){
+    font-size: 0.8rem;
+  }
+`;
