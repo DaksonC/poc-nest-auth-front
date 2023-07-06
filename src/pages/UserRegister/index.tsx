@@ -1,6 +1,7 @@
 import { Button, Container, Form, Input, Link } from "./styles";
 
 export function UserRegister() {
+
   return (
     <Container>
       <Form>
