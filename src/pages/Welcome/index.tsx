@@ -25,7 +25,7 @@ export function Welcome() {
       <ConfettiExplosion duration={10000} />
       <ConfettiExplosion duration={10000} particleCount={200} />
       <ConfettiExplosion duration={10000} particleCount={300} />
-      <h1>{name},</h1>
+      <h1>{name}</h1>
       <h2>Bem-vindo!</h2>
     </Container>
   )
