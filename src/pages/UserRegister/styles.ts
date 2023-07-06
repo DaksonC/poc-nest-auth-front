@@ -46,6 +46,7 @@ export const Input = styled.input`
   padding: 0.5rem;
   border: none;
   border-radius: 0.5rem;
+  color: #c9c9;
 
   @media (max-width: 768px){
     width: 100%;
